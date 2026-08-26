@@ -357,7 +357,7 @@ def tela_recuperacao():
                     ok, msg = solicitar_recuperacao(email_rec)
                     st.success(msg)
     st.markdown("---")
-    if st.button("🔐 Voltar para o login"):
+    if st.button("🔐 Voltar ao login"):
         st.query_params.clear()
         st.rerun()
     st.markdown("</div>", unsafe_allow_html=True)
