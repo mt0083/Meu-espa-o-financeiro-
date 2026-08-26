@@ -422,7 +422,7 @@ if "token" in params and "email" in params:
     st.stop()
 if "tela_recuperacao" in st.session_state and st.session_state.tela_recuperacao:
     tela_recuperacao()
-    if st.button("🔐 " volta ao login ")
+    if st.button("🔐 volta ao login "):
 
     ):
         del st.session_state.tela_recuperacao
